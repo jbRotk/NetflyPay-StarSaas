@@ -1,0 +1,25 @@
+{
+  "name": "netfly/netflypay",
+  "description": "netfly pay sdk for Omnipay payment processing library",
+  "authors": [
+    {
+      "name": "yulingwei",
+      "email": "767502630@qq.com"
+    }
+  ],
+  "homepage": "https://github.com/thephpleague/omnipay",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\StarSaas\\": "src/"
+    }
+  },
+  "require": {
+    "omnipay/common": "^3.0",
+    "php-http/guzzle6-adapter": "*"
+  },
+  "require-dev": {
+    "omnipay/tests": "^3.0",
+    "squizlabs/php_codesniffer": "3.*"
+  }
+}
